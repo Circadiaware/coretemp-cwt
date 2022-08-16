@@ -26,4 +26,4 @@ Temperature nadirs:
 
 ## Note about private information in code
 
-The CORE body temp password written into the codebase has since been changed, and the firebase api creds hardcoded may still work but I don't mind that they're public.
+I don't mind that there's CORE authorization headers in the code. I really doubt anyone will use it to mess with my core temp data :)
