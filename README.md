@@ -12,4 +12,4 @@ This software was made by RoboTeddy and has been dedicated to the public domain
 
 ## Note about private information in code
 
-The password written into the codebase was since changed, and the firebase api creds may still work but I don't mind that they're public.
+The CORE body temp password written into the codebase has since been changed, and the firebase api creds hardcoded may still work but I don't mind that they're public.
