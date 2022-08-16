@@ -8,7 +8,7 @@
     "dev": "yarn parcel index.html"
   },
   "dependencies": {
-    "axios": "0.21.1",
+    "axios": "0.21.2",
     "firebase": "8.8.0",
     "firebase-admin": "9.11.0",
     "http2": "3.3.7",
