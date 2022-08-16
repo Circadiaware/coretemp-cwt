@@ -5,3 +5,11 @@ Circadian rhythm nadirs inference using continuous wave transforms on non invasi
 
 This software was made by RoboTeddy and has been dedicated to the public domain
 
+## Example fit
+
+![image](https://user-images.githubusercontent.com/172271/184998622-fd2aaca3-9338-4e7b-bb93-a7466e4c006f.png)
+
+
+## Note about private information in code
+
+The password written into the codebase was since changed, and the firebase api creds may still work but I don't mind that they're public.
