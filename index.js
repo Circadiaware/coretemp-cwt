@@ -126,8 +126,6 @@ const Chart = ({ temperatureData, sleepData }) => {
   const temperatures = points.map(({ cbt }) =>
     getFarenheitFromCelcius(cbt / 1000)
   );
-  console.log(timestamps);
-  console.log("temps", temperatures);
 
   var model = new Loess(
     { x: timestamps, y: temperatures },
@@ -162,6 +160,7 @@ const Chart = ({ temperatureData, sleepData }) => {
       >
         download fitbit data
       </a>
+      {/*
       <UplotReact
         options={options}
         data={[
@@ -172,6 +171,7 @@ const Chart = ({ temperatureData, sleepData }) => {
         onCreate={(chart) => {}}
         onDelete={(chart) => {}}
       />
+    */}
     </>
   );
 };
