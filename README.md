@@ -5,6 +5,8 @@ Circadian rhythm nadirs inference using continuous wave transforms on non invasi
 
 This software was made by RoboTeddy and has been dedicated to the public domain
 
+To contact the author, please use [the Discussions tab](https://github.com/Circadiaware/coretemp-cwt/discussions) on GitHub.
+
 ## Example fit
 
 ![image](https://user-images.githubusercontent.com/172271/185003794-a671a896-37d4-42d0-be70-45d187c8351c.png)
