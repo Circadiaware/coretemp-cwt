@@ -1,11 +1,20 @@
 # coretemp-cwt
-Circadian rhythm nadirs inference using continuous wave transforms on non invasive core body temperature. Allows visualization and also outputs actual minimum temperature times for each day. Code is messy (was hacked together for personal use and then published w/o modification)
+Circadian rhythm nadirs inference using continuous wave transforms on non invasive core body temperature. Allows visualization and also outputs actual minimum temperature times for each day. Code is messy (was hacked together for personal use and then published w/o modification).
+
+## Usage
+
+The package is composed of two scripts:
+
+* fetch.mjs , a node.js script to automatically download core body temperature data from the GreenTEG CORE Cloud. Usage of the script is optional, as the data can be manually downloaded by accessing the website, selecting the period and clicking on the CSV download button.
+* analyze.m , a MATLAB script to calculate the circadian rhythm nadirs using continuous wave transforms from a CSV file containing one temperature value per row. See for example [this published dataset](https://figshare.com/articles/dataset/greenteg-core-axillary-5min/15001182).
 
 ## Author and license
 
-This software was made by RoboTeddy and has been dedicated to the public domain
+This software was made by RoboTeddy and has been dedicated to the public domain.
 
-To contact the author, please use [the Discussions tab](https://github.com/Circadiaware/coretemp-cwt/discussions) on GitHub.
+The package is maintained by the Circadiaware collective, which can be contacted in case of issues (please open a ticket).
+
+To contact the author or maintainers, please use [the Discussions tab](https://github.com/Circadiaware/coretemp-cwt/discussions) on GitHub.
 
 ## Example fit
 
@@ -23,9 +32,3 @@ Temperature nadirs:
    13-Aug-2022 04:55:00
    14-Aug-2022 04:40:00
 ```
-
-
-
-## Note about private information in code
-
-I don't mind that there's CORE authorization headers in the code. I really doubt anyone will use it to mess with my core temp data :)
