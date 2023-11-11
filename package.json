@@ -8,7 +8,7 @@
     "fetch": "node ./fetch.mjs > ~/downloads/cbt-k.csv"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.6.0",
     "papaparse": "5.3.1"
   },
   "devDependencies": {
